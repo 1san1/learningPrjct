@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        
+        <style>
+            #border{
+                display: block;
+                border: 1px solid lightgoldenrodyellow;
+                background-color:lightgoldenrodyellow;
+                width: 220px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin: -50px 0 0 -50px;
+                              
+            }
+            #calcBlock{
+                margin-left: 3px;
+                
+            }
+            input{
+                width: 205px;
+                height: 50px;
+                margin-bottom: 5px;
+                text-align: right;
+            }
+            #ButtonFR, #ButtonSR, #ButtonTR, #ButtonFFR{
+              margin-bottom: 3px; 
+            } 
+            button{
+                border:transparent;
+                width: 50px;
+                height: 50px;
+            }
+            button:hover{
+                background-color: lightpink;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="border">
+        <div id="calcBlock">
+        <input id="disp" type="text"/>
+        <div id="Button">
+        <div id="ButtonFR">
+            <button id="clear" >C</button>
+            <button id="multiplication" value="*">X</button>
+            <button id="division" value="/">/</button>
+            <button id="equalTo">=</button>
+        </div>
+        <div id="ButtonSR">
+            <button id="one" value="1">1</button>
+            <button id="two" value="2">2</button>
+            <button id="three" value="3">3</button>
+            <button id="add" value="+">+</button>
+
+        </div>
+        <div id="ButtonTR">
+            <button id="four" value="4">4</button>
+            <button id="five" value="5">5</button>
+            <button id="six" value="6">6</button>
+            <button id="sub" >-</button>
+
+        </div>
+        <div id="ButtonFFR">
+            <button id="seven" value="7">7</button>
+            <button id="eight" value="8">8</button>
+            <button id="nine" value="9">9</button>
+            <button id="zero" value="0">0</button>
+        </div>  
+</div>
+</div>            
+</div>
+<script src="./index.js"></script> 
+    </body>
+</html>
